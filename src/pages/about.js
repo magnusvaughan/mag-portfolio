@@ -2,9 +2,9 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import c7 from "../../public/img/c7.png";
-import hbt from "../../public/img/hbt.png";
-import spl from "../../public/img/spl.png";
+import c7 from "../images/c7.png";
+import hbt from "../images/hbt.png";
+import spl from "../images/spl.png";
 
 function AboutPage() {
   return (
