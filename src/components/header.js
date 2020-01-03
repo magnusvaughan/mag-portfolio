@@ -14,7 +14,7 @@ function Header() {
   `);
 
   return (
-    <header className="bg-gray-400 font-famiily-display">
+    <header className="bg-gray-300 font-famiily-display">
       <div className="flex flex-wrap items-center justify-end max-w-4xl mx-auto p-4 md:p-8">
 
         <button

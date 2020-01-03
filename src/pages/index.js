@@ -12,7 +12,8 @@ function IndexPage() {
       />
 
       <section className="text-center">
-        <h2 className="font-display font-bold text-gray-600 text-2xl">I'm a software developer working with PHP and JavaScript</h2>
+        <h2 className="font-display font-bold text-gray-900 text-6xl">I'm a software developer</h2>
+        <h3 className="font-display font-bold text-gray-900 text-4xl">working with PHP and JavaScript</h3>
       </section>
     </Layout>
   );
