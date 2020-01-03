@@ -14,8 +14,13 @@ function Header() {
   `);
 
   return (
-    <header className="bg-gray-300 font-famiily-display">
-      <div className="flex flex-wrap items-center justify-end max-w-4xl mx-auto p-4 md:p-8">
+    <header className="bg-gray-300 font-famiily-display flex-1">
+      <div className="flex flex-wrap items-center justify-between mx-auto p-4 md:p-8">
+      <Link className="flex items-center no-underline text-gray-800" to="/">
+          <span className="font-bold text-xl tracking-tight font-display">
+            {site.siteMetadata.title}
+          </span>
+        </Link>
 
         <button
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-gray-600"
@@ -51,7 +56,7 @@ function Header() {
             }
           ].map(link => (
             <Link
-              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-gray-700"
+              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-gray-800 font-bold"
               key={link.title}
               to={link.route}
             >
