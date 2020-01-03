@@ -11,7 +11,7 @@ function ContactPage() {
         title="Contact"
       />
       <section className="text-center">
-        <h2 className="font-display font-bold text-gray-800 text-4xl">I'm on <a class="underline" href="https://twitter.com/magnusvaughan">Twitter</a> and <a class="underline" href="https://github.com/magnusvaughan">Github</a></h2>
+        <h2 className="font-display font-bold text-gray-800 text-4xl">I'm on <a class="underline" href="https://twitter.com/magnusvaughan" target="_blank">Twitter</a> and <a class="underline" href="https://github.com/magnusvaughan" target="_blank">Github</a></h2>
       </section>
     </Layout>
   );
