@@ -2,9 +2,9 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import compositionSeven from "../../public/img/c7.png";
-import hotBackThen from "../../public/img/hbt.png";
-import splash from "../../public/img/spl.png";
+import c7 from "../../public/img/c7.png";
+import hbt from "../../public/img/hbt.png";
+import spl from "../../public/img/spl.png";
 
 function AboutPage() {
   return (
@@ -18,7 +18,7 @@ function AboutPage() {
 
       <div class="flex w-1/3 justify-center">
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <img class="w-full" src={compositionSeven} alt="Composition Seven"/>
+          <img class="w-full" src={c7} alt="Composition Seven"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2"><a href="https://composition-seven.com" target="_blank">Composition Seven</a></div>
             <p class="text-gray-700 text-base">
@@ -29,7 +29,7 @@ function AboutPage() {
       </div>
       <div class="flex w-1/3 justify-center">
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <img class="w-full" src={hotBackThen} alt="Hot Back Then" />
+          <img class="w-full" src={hbt} alt="Hot Back Then" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2"><a href="https://hotbackthen.com" target="_blank">Hot Back Then</a></div>
             <p class="text-gray-700 text-base">
@@ -40,7 +40,7 @@ function AboutPage() {
       </div>
       <div class="flex w-1/3 justify-center">
       <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <img class="w-full" src={splash} alt="Splash" />
+          <img class="w-full" src={spl} alt="Splash" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2"><a href="https://radiant-atoll-34444.herokuapp.com/" target="_blank">Splash</a></div>
             <p class="text-gray-700 text-base">
